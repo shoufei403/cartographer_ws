@@ -1,0 +1,51 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/cartographer/cloud",
+                "${workspaceFolder}/cartographer/cloud/client",
+                "${workspaceFolder}/cartographer/cloud/internal",
+                "${workspaceFolder}/cartographer/cloud/internal/client",
+                "${workspaceFolder}/cartographer/cloud/internal/handlers",
+                "${workspaceFolder}/cartographer/cloud/internal/mapping",
+                "${workspaceFolder}/cartographer/cloud/internal/sensor",
+                "${workspaceFolder}/cartographer/cloud/internal/testing",
+                "${workspaceFolder}/cartographer/cloud/metrics/prometheus",
+                "${workspaceFolder}/cartographer/common",
+                "${workspaceFolder}/cartographer/common/internal/testing",
+                "${workspaceFolder}/cartographer/ground_truth",
+                "${workspaceFolder}/cartographer/io",
+                "${workspaceFolder}/cartographer/io/internal",
+                "${workspaceFolder}/cartographer/io/testing",
+                "${workspaceFolder}/cartographer/mapping",
+                "${workspaceFolder}/cartographer/mapping/2d",
+                "${workspaceFolder}/cartographer/mapping/3d",
+                "${workspaceFolder}/cartographer/mapping/internal",
+                "${workspaceFolder}/cartographer/mapping/internal/2d",
+                "${workspaceFolder}/cartographer/mapping/internal/2d/scan_matching",
+                "${workspaceFolder}/cartographer/mapping/internal/3d",
+                "${workspaceFolder}/cartographer/mapping/internal/3d/scan_matching",
+                "${workspaceFolder}/cartographer/mapping/internal/constraints",
+                "${workspaceFolder}/cartographer/mapping/internal/optimization",
+                "${workspaceFolder}/cartographer/mapping/internal/optimization/cost_functions",
+                "${workspaceFolder}/cartographer/mapping/internal/scan_matching",
+                "${workspaceFolder}/cartographer/mapping/internal/testing",
+                "${workspaceFolder}/cartographer/metrics",
+                "${workspaceFolder}/cartographer/sensor",
+                "${workspaceFolder}/cartographer/sensor/internal",
+                "${workspaceFolder}/cartographer/testing",
+                "${workspaceFolder}/cartographer/transform",
+                "/usr/include/eigen3"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 4
+}
